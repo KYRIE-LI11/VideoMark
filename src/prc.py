@@ -49,12 +49,12 @@ def bin_to_str(bin_list):
 # false_positive_rate - the false positive rate you're willing to tolerate
 # t - sparsity of parity checks. larger values help pseudorandomness
 # g - dimension of random code used. larger values help pseudorandomness
-# r - number of parity checks used. smaller values help pseudorandomness,冗余度
+# r - number of parity checks used. smaller values help pseudorandomness
 # noise_rate - amount of noise for Encode to add to codewords. larger values help pseudorandomness
 def KeyGen(n, message_length=512, false_positive_rate=1e-9, t=3, g=None, r=None, noise_rate=None):
     # Set basic scheme parameters
-    num_test_bits = int(np.ceil(np.log2(1 / false_positive_rate)))#np.ceil像上取整,17
-    secpar = int(np.log2(binom(n, t)))#lamda,算组合数binom(n, t)->从n个元素里面随机选t个,45
+    num_test_bits = int(np.ceil(np.log2(1 / false_positive_rate)))
+    secpar = int(np.log2(binom(n, t)))
     if g is None: g = secpar
     # if noise_rate is None: noise_rate = np.exp(lambertw(-np.log(2) / secpar, -1)).real
     # if noise_rate is None: noise_rate = 1 - 2**(-(secpar - 3*np.log2(g))/g**2)
