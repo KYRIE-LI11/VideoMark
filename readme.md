@@ -1,17 +1,30 @@
-# 🎬 VideoMark
 
-**VideoMark**: *A Distortion-Free Robust Watermarking Framework for Video Diffusion Models*  
-[Official Implementation] of the paper.
+<div align="center">
+<h1><a href="https://arxiv.org/abs/2504.16359" style="color:#68edcb">VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models</a></h1>
+        If our project helps you, please give us a star ⭐ on GitHub to support us. 🙏🙏
+        
+[![arXiv](https://img.shields.io/badge/arXiv-2504.16359-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2504.16359) 
+</div>
 
----
 
-## 🚀 Getting Started
+## 🔥 News
+* **`2025.0x.xx`** 🎉 We are happy to announce that we release our code.
+* **`2025.04.23`** 🌟 We released the paper [VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models](https://arxiv.org/abs/2504.16359).
+<div align="center"><img src="https://github.com/KYRIE-LI11/VideoMark/blob/main/docs/overall_pipeline.png" width="800" /><div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;">The overall framework of VideoMark. </div></div>
+
+
+----
+
+
+## 🛠️ Requirements and Installation
 
 ### 1️⃣ Install Dependencies
-
-Make sure you have Python 3.10+ installed. Then run:
+Basic Dependencies:
+* Python >= 3.10
+* ···
+Then run:
 ```shell
-
 pip install -r requirements.txt
 ```
 
@@ -53,8 +66,19 @@ We recommend using [VBench](https://github.com/Vchitect/VBench) — VBench: Comp
 
 ### 👁️ Subjective Evaluation
 
-For subjective assessments, we provide sample videos and guidelines in the following folder:
+For subjective assessments, we provide sample videos and guidelines in the following [`folder: eval_quality`](https://github.com/KYRIE-LI11/VideoMark/blob/main/eval_quality/README.md):
 
+### 🌟 Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=KYRIE-LI11/VideoMark&type=Date)](https://star-history.com/#KYRIE-LI11/VideoMark&Date)
 ```shell
 cd eval_quality
+```
+
+```bibtex
+@article{hu2025videomark,
+  title={VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models},
+  author={Hu, Xuming and Li, Hanqian and Li, Jungang and Liu, Aiwei},
+  journal={arXiv preprint arXiv:2504.16359},
+  year={2025}
+}
 ```
