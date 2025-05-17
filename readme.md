@@ -1,6 +1,6 @@
 
 <div align="center">
-<h1><a href="https://arxiv.org/abs/2504.16359" style="color:#68edcb">VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models</a></h1>
+<h2><a href="https://arxiv.org/abs/2504.16359" style="color:#68edcb">VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models</a></h2>
         If our project helps you, please give us a star ⭐ on GitHub to support us. 🙏🙏
         
 [![arXiv](https://img.shields.io/badge/arXiv-2504.16359-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2504.16359) 
@@ -19,7 +19,7 @@
 
 ## 🛠️ Requirements and Installation
 
-### 1️⃣ Install Dependencies
+### Install Dependencies
 Basic Dependencies:
 * Python >= 3.10
 * ···
@@ -28,12 +28,12 @@ Then run:
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Generate a Watermark Key
+### Generate a Watermark Key
 ```shell
 python PRC_key_gen.py --hight 512 --width 512 --fpr 0.01 --prc_t 3
 ```
 
-### 3️⃣ Watermark Embedding and Extraction
+### Watermark Embedding and Extraction
 ```shell
 python embedding_and_extraction.py \
         --model_name i2vgen-xl \
@@ -44,7 +44,7 @@ python embedding_and_extraction.py \
         --keys_path  <your keys path>\
 ```
 
-### 4️⃣ Robustness Test
+### Robustness Test
 ```shell
 python temporal_tamper.py
         --model_name i2vgen-xl \
@@ -67,13 +67,17 @@ We recommend using [VBench](https://github.com/Vchitect/VBench) — VBench: Comp
 ### 👁️ Subjective Evaluation
 
 For subjective assessments, we provide sample videos and guidelines in the following [`folder: eval_quality`](https://github.com/KYRIE-LI11/VideoMark/blob/main/eval_quality/README.md):
-
-### 🌟 Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=KYRIE-LI11/VideoMark&type=Date)](https://star-history.com/#KYRIE-LI11/VideoMark&Date)
 ```shell
 cd eval_quality
 ```
 
+
+## 🌟 Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=KYRIE-LI11/VideoMark&type=Date)](https://star-history.com/#KYRIE-LI11/VideoMark&Date)
+
+
+## 📑 Citation
+If you find VideoMark useful for your research and applications, please cite using this BibTeX:
 ```bibtex
 @article{hu2025videomark,
   title={VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models},
