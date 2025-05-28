@@ -1,7 +1,7 @@
 
 <div align="center">
 <h2><a href="https://arxiv.org/abs/2504.16359" style="color:#68edcb">VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models</a></h2>
-        If our project helps you, please give us a star ⭐ on GitHub to support us. 🙏🙏
+        If our project helps you, please give us a star ⭐ on GitHub to support us. 🧙🧙
         
 [![arXiv](https://img.shields.io/badge/arXiv-2504.16359-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2504.16359) 
 </div>
