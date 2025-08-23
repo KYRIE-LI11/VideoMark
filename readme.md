@@ -8,7 +8,7 @@
 
 
 ## 🔥 News
-* **`2025-08-22`** 🎉 We are happy to announce that we release our code.
+* **`2025-08-10`** 🎉 We are happy to announce that we release our code.
 * **`2025-04-23`** 🌟 We released the paper [VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models](https://arxiv.org/abs/2504.16359).
 <div align="center"><img src="https://github.com/KYRIE-LI11/VideoMark/blob/main/docs/overall_pipeline.png" width="800" /><div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;">The overall framework of VideoMark. </div></div>
