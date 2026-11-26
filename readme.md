@@ -1,13 +1,14 @@
 
 <div align="center">
-<h2><a href="https://arxiv.org/abs/2504.16359" style="color:#68edcb">VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models</a></h2>
+<h2><a href="https://arxiv.org/abs/2504.16359" style="color:#68edcb">VideoMark: Training-Free Watermarking for 2D-VAE Video Diffusion Models</a></h2>
         If our project helps you, please give us a star ⭐ on GitHub to support us. 🧙🧙
         
-[![arXiv](https://img.shields.io/badge/arXiv-2504.16359-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2504.16359) 
+[TMLR 2026](https://arxiv.org/abs/2504.16359) 
 </div>
 
 
 ## 🔥 News
+* **`2026-11-23`** 🎉 VideoMark has been accepted by TMLR.
 * **`2025-08-10`** 🎉 We are happy to announce that we release our code.
 * **`2025-04-23`** 🌟 We released the paper [VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models](https://arxiv.org/abs/2504.16359).
 <div align="center"><img src="https://github.com/KYRIE-LI11/VideoMark/blob/main/docs/overall_pipeline.png" width="800" /><div style="color:orange; border-bottom: 1px solid #d9d9d9;
@@ -79,10 +80,13 @@ cd eval_quality
 ## 📑 Citation
 If you find VideoMark useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-@article{hu2025videomark,
-  title={VideoMark: A Distortion-Free Robust Watermarking Framework for Video Diffusion Models},
-  author={Hu, Xuming and Li, Hanqian and Li, Jungang and Liu, Aiwei},
-  journal={arXiv preprint arXiv:2504.16359},
-  year={2025}
+@misc{li2026videomarktrainingfreewatermarking2dvae,
+      title={VideoMark: Training-Free Watermarking for 2D-VAE Video Diffusion Models}, 
+      author={Hanqian Li and Aiwei Liu and Jungang Li and Yu Huang and Chen Ling and Ye Pan and Shuliang Liu and Zheng Qi and Junhao Chen and Xuming Hu},
+      year={2026},
+      eprint={2504.16359},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2504.16359}, 
 }
 ```
